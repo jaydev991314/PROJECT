@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+form {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+input[type=text], input[type=email], input[type=password], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px;
+}
+
+.articles-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.article-item {
+    border: 1px solid rgb(225, 224, 224);
+    margin: 10px;
+    padding: 10px;
+}
+
+.author-bio img {
+    width: 100px;
+}
